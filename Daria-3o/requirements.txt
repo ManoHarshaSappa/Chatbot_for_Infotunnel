@@ -1,0 +1,35 @@
+streamlit
+langchain
+faiss-cpu
+huggingface-hub
+sentence-transformers
+transformers
+numpy
+pandas
+
+
+#Reference:
+# Streamlit
+# Streamlit Inc. (2019). Streamlit: The fastest way to build and share data apps. Retrieved from https://streamlit.io
+
+# LangChain
+# LangChain. (2023). LangChain: Building applications with LLMs through composability. Retrieved from https://www.langchain.com
+
+# FAISS-CPU
+# Johnson, J., Douze, M., & Jégou, H. (2017). FAISS: A library for efficient similarity search and clustering of dense vectors. Retrieved from https://github.com/facebookresearch/faiss
+
+# Hugging Face Hub
+# Hugging Face. (2020). Hugging Face Hub: The AI community's repository. Retrieved from https://huggingface.co/hub
+
+# Sentence Transformers
+# Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-networks. Retrieved from https://www.sbert.net
+
+# Transformers
+# Hugging Face. (2019). Transformers: State-of-the-art natural language processing for PyTorch and TensorFlow 2.0. Retrieved from https://huggingface.co/transformers
+
+# NumPy
+# Harris, C. R., Millman, K. J., van der Walt, S. J., et al. (2020). Array programming with NumPy. Nature, 585(7825), 357–362. doi: https://doi.org/10.1038/s41586-020-2649-2
+
+# Pandas
+# McKinney, W. (2010). Data structures for statistical computing in Python. Proceedings of the 9th Python in Science Conference, 51–56. doi: https://doi.org/10.25080/Majora-92bf1922-00a
+
