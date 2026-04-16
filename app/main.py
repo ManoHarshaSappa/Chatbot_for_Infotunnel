@@ -10,13 +10,16 @@ st.set_page_config(
     page_title="DARIA 3.0 — InfoTunnel AI",
     page_icon="🏗️",
     layout="wide",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_state="expanded",
 )
 
 st.markdown("""
 <style>
     #MainMenu, footer, header {visibility: hidden;}
-    [data-testid="collapsedControl"] {display: none;}
+    [data-testid="collapsedControl"],
+    [data-testid="stSidebarCollapseButton"] {
+        display: none;
+    }
 
     body { background-color: #0D0F1A; }
 

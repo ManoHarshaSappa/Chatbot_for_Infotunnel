@@ -21,6 +21,10 @@ st.set_page_config(
 st.markdown("""
 <style>
     #MainMenu, footer, header { visibility: hidden; }
+    [data-testid="collapsedControl"],
+    [data-testid="stSidebarCollapseButton"] {
+        display: none;
+    }
 
     /* Remove excessive padding from main content block */
     .main .block-container {

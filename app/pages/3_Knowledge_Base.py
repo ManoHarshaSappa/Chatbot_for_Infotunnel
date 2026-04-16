@@ -18,6 +18,10 @@ st.set_page_config(
 st.markdown("""
 <style>
     #MainMenu, footer, header {visibility: hidden;}
+    [data-testid="collapsedControl"],
+    [data-testid="stSidebarCollapseButton"] {
+        display: none;
+    }
     .main .block-container {
         padding: 1.2rem 1rem 2rem !important;
         max-width: 1000px;
