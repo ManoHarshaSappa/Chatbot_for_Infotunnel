@@ -1,5 +1,5 @@
 """
-setup.py — First-time setup script for DARIA 3.0
+setup.py — First-time setup script for DARIA 4.0
 
 Run this once before launching the app:
     python setup.py
@@ -19,7 +19,7 @@ sys.path.insert(0, str(ROOT))
 
 def main():
     print("=" * 55)
-    print("  DARIA 3.0 — First-Time Setup")
+    print("  DARIA 4.0 — First-Time Setup")
     print("=" * 55)
 
     # Step 1: Make sure scraped_content.json is in data/

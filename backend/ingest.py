@@ -78,7 +78,7 @@ def extract_documents(json_path: Path) -> list[Document]:
 
 def build_and_save_index():
     print("=" * 50)
-    print("DARIA 3.0 — Building Knowledge Base")
+    print("DARIA 4.0 — Building Knowledge Base")
     print("=" * 50)
 
     json_path = find_json()

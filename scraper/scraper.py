@@ -121,7 +121,7 @@ def scrape_page(url: str) -> dict:
 
 def scrape_all():
     print("=" * 50)
-    print("DARIA 3.0 — Scraping InfoTunnel FHWA")
+    print("DARIA 4.0 — Scraping InfoTunnel FHWA")
     print("=" * 50)
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)

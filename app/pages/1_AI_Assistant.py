@@ -12,7 +12,7 @@ from backend.retriever import search
 from backend.llm import get_answer_stream, get_suggestions, transcribe_audio
 
 st.set_page_config(
-    page_title="AI Assistant — DARIA 3.0",
+    page_title="AI Assistant — DARIA 4.0",
     page_icon="💬",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -100,7 +100,7 @@ st.markdown("""
 
 # ── DARIA welcome ─────────────────────────────────────────────────────────────
 WELCOME = (
-    "Hey there! 👋 I'm **DARIA 3.0** — your AI assistant for the **InfoTunnel** platform "
+    "Hey there! 👋 I'm **DARIA 4.0** — your AI assistant for the **InfoTunnel** platform "
     "by the Federal Highway Administration (FHWA).\n\n"
     "I'm trained on NDE and infrastructure inspection data. Here's what I can help with:\n\n"
     "🔊 **Acoustic Emission (AE)** testing\n"
@@ -144,7 +144,7 @@ if st.session_state.conversation_id is None:
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("### 🏗️ DARIA 3.0")
+    st.markdown("### 🏗️ DARIA 4.0")
     st.caption("InfoTunnel · NDE Knowledge Assistant")
     st.divider()
 

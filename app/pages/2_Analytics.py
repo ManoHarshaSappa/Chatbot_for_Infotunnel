@@ -10,7 +10,7 @@ from backend.retriever import search
 from backend.llm import get_answer
 
 st.set_page_config(
-    page_title="Analytics — DARIA 3.0",
+    page_title="Analytics — DARIA 4.0",
     page_icon="📊",
     layout="wide",
 )

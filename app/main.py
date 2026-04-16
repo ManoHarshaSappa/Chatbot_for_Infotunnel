@@ -7,7 +7,7 @@ sys.path.insert(0, str(ROOT))
 import streamlit as st
 
 st.set_page_config(
-    page_title="DARIA 3.0 — InfoTunnel AI",
+    page_title="DARIA 4.0 — InfoTunnel AI",
     page_icon="🏗️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -101,7 +101,7 @@ st.markdown("""
 st.markdown("""
 <div class="landing-wrap">
     <div class="logo-badge">FHWA · InfoTunnel · NDE</div>
-    <div class="landing-title">DARIA 3.0</div>
+    <div class="landing-title">DARIA 4.0</div>
     <div class="landing-sub">
         Domain-specific AI for Retrieval and Integrated Analysis.<br>
         Ask anything about infrastructure inspection, NDE techniques,

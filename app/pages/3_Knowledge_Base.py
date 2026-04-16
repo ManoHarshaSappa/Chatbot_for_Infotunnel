@@ -10,7 +10,7 @@ import streamlit as st
 from database.db import get_all_conversations, get_messages
 
 st.set_page_config(
-    page_title="Knowledge Base — DARIA 3.0",
+    page_title="Knowledge Base — DARIA 4.0",
     page_icon="🗄️",
     layout="wide",
 )

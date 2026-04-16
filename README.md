@@ -1,8 +1,8 @@
-# DARIA 3.0 — InfoTunnel AI Assistant
+# DARIA 4.0 — InfoTunnel AI Assistant
 
 **Domain-specific AI for Retrieval and Integrated Analysis**
 
-DARIA 3.0 is a conversational AI chatbot built for the [InfoTunnel](https://infotechnology.fhwa.dot.gov/) platform by the Federal Highway Administration (FHWA). It uses Retrieval-Augmented Generation (RAG) to answer questions about Nondestructive Evaluation (NDE) techniques for infrastructure inspection — grounded entirely in official FHWA documentation.
+DARIA 4.0 is a conversational AI chatbot built for the [InfoTunnel](https://infotechnology.fhwa.dot.gov/) platform by the Federal Highway Administration (FHWA). It uses Retrieval-Augmented Generation (RAG) to answer questions about Nondestructive Evaluation (NDE) techniques for infrastructure inspection — grounded entirely in official FHWA documentation.
 
 ---
 
@@ -252,7 +252,7 @@ Fast, cheap, and smart enough for domain-specific Q&A. ~10x cheaper than GPT-4o 
 
 ## Academic Context
 
-Originally developed as **DARIA 3.0** for the AIT526 course at George Mason University (Team 14, advised by Dr. Lindi Liao). The original RAG prototype used HuggingFace-hosted LLaMA 3 8B and Phi-2 models. This version rebuilds the entire stack with OpenAI APIs, persistent storage, and a production-quality UI.
+Originally developed as **DARIA 3.0** for the AIT526 course at George Mason University (Team 14, advised by Dr. Lindi Liao). **DARIA 4.0** is the current version, rebuilding the stack with OpenAI APIs, persistent storage, and a production-quality UI.
 
 ---
 
