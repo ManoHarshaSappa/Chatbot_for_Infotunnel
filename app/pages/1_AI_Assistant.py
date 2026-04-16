@@ -23,8 +23,7 @@ st.markdown("""
     #MainMenu, footer, header { visibility: hidden; }
 
     /* Remove excessive padding from main content block */
-    .main .block-container,
-    .st-emotion-cache-zy6yx3 {
+    .main .block-container {
         padding: 1.2rem 1rem 2rem !important;
         max-width: 860px;
     }

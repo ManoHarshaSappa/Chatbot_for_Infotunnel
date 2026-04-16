@@ -129,6 +129,12 @@ Create a `.env` file in the project root:
 echo "OPENAI_API_KEY=your_api_key_here" > .env
 ```
 
+If you want to run the legacy models inside `archive/Daria-3o/`, also add:
+
+```bash
+echo "HUGGINGFACEHUB_API_TOKEN=your_huggingface_token_here" >> .env
+```
+
 ### Step 3 — Install dependencies
 
 ```bash
@@ -224,6 +230,7 @@ All knowledge comes from the FHWA InfoTunnel documentation:
 | Variable | Description |
 |----------|-------------|
 | `OPENAI_API_KEY` | Your OpenAI API key — used for GPT-4o-mini, Whisper, and embeddings |
+| `HUGGINGFACEHUB_API_TOKEN` | Optional for legacy Hugging Face-based code in `archive/Daria-3o/` |
 
 ---
 

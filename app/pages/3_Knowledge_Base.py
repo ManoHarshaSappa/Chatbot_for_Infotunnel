@@ -18,8 +18,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     #MainMenu, footer, header {visibility: hidden;}
-    .main .block-container,
-    .st-emotion-cache-zy6yx3 {
+    .main .block-container {
         padding: 1.2rem 1rem 2rem !important;
         max-width: 1000px;
     }

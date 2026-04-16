@@ -19,8 +19,10 @@ def main():
     if "answers" not in st.session_state:
         st.session_state["answers"] = {}
 
-    # Set HuggingFace API Token
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+    hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+    if not hf_token:
+        st.error("Missing HUGGINGFACEHUB_API_TOKEN. Add it to your environment or .env file.")
+        return
 
     def extract_json_content(json_path):
         try:
@@ -194,4 +196,3 @@ if __name__ == "__main__":
 
 # Pandas
 # McKinney, W. (2010). Data structures for statistical computing in Python. Proceedings of the 9th Python in Science Conference, 51–56. doi: https://doi.org/10.25080/Majora-92bf1922-00a
-
