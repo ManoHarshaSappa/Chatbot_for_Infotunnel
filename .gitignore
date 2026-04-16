@@ -1,0 +1,25 @@
+# Environment - NEVER commit this
+.env
+
+# SQLite database
+database/*.db
+
+# FAISS index (large binary files, rebuild with ingest.py)
+data/faiss_index/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Streamlit cache
+.streamlit/secrets.toml
